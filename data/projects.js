@@ -6,7 +6,7 @@ export const projects = [
         sub: "This is a platform for listing and hunting jobs",
         tech: ["Next.js", "Tailwind Css", "Firebase"],
         description: "This is a next-gen job listing platform built to connect job seekers and employers faster, smarter, and more efficiently. With Corporate Jobs, users can discover verified job listings, apply with a single click, and track applications in real time. Employers, on the other hand, can post jobs, manage applicants, and hire top talent effortlessly—all from an intuitive dashboard.",
-        demo_url: "https://https://corporatejobs.netlify.app/",
+        demo_url: "https://corporatejobs.netlify.app/",
         cols: ""
     },
     {
