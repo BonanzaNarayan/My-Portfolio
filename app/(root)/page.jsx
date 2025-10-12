@@ -91,7 +91,7 @@ export default function page() {
           <h1 className='scroll-m-20 text-start text-4xl font-extrabold tracking-tight text-balance'>About Me</h1>
 
           <div className='grid grid-cols-1 gap-2 lg:grid-cols-2 dots p-2'>
-            <div className='flex flex-col items-center justify-center'>
+            <article className='flex flex-col items-center justify-center'>
 
               <p className='leading-7 [&:not(:first-child)]:mt-6'>
               Hey, I'm <span className='text-transparent bg-gradient-to-l from-rose-500 to-orange-500 bg-clip-text'>Bonanza Narayan,</span> the guy who builds websites that actually do something. Not just “look nice.” I'm talking SaaS and Business ready, conversion-focused, and ready to ship.
@@ -119,7 +119,7 @@ export default function page() {
                   <img src="/github_dark.svg" alt="" className='w-8' />
                 </Link>
               </div>
-            </div>
+            </article>
             <div className='flex items-center justify-center relative'>
               <div className=' absolute top-0 left-0 lg:left-0'>
                 <Code className='text-orange-500' />

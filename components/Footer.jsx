@@ -14,7 +14,7 @@ export default function Footer() {
             </div>
 
             <div className="text-sm">
-              {new Date().getFullYear()}© Bonanza Narayan | ALL RIGHTD RESERVED
+              {new Date().getFullYear()}© Bonanza Narayan | ALL RIGHTS RESERVED
             </div>
 
             <div className="text-sm">
