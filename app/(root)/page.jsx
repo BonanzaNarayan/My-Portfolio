@@ -139,7 +139,7 @@ export default function page() {
         </section>
 
         {/* Recent Project */}
-        <section className='mt-20'>
+        <section className='mt-20' id='projects'>
             <h1 className='scroll-m-20 text-start text-4xl font-extrabold tracking-tight text-balance text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-purple-600'>Recent Projects</h1>
 
             <div className='bg-[linear-gradient(to_right,#80808012_1px,transparent_1px),linear-gradient(to_bottom,#80808012_1px,transparent_1px)] bg-[size:24px_24px] min-h-screen mt-10 rounded-3xl grid grid-cols-1 md:grid-cols-2 p-2 gap-2'>
