@@ -178,6 +178,17 @@ export default function page() {
             </div>
         </section>
 
+        {/* Testimonials Ifram embed */}
+        <section>
+          <h1 className='scroll-m-20 text-start text-4xl font-extrabold tracking-tight text-balance mt-10'>Testimonials</h1>
+          <p className='leading-7 [&:not(:first-child)]:mt-2 text-primary/70'>
+            See what people are saying about my work.
+          </p>
+          <div className='mt-5'>
+            <iframe src="https://www.testipules.com/embed?org=OmbRxT8L5DSwk4reDpgn&user_uid=JmSRqcoi0uNjM6BWMrF0nPNdQup2&style=masonry&theme=dark&bg=171616&text=ffffff&accent=3b82f6&border=e5e7eb&cardBg=f9fafb&font=roboto&fontSize=16&fontWeight=400&borderRadius=12&spacing=20&padding=24&shadow=md&animation=fade&max=4&autoplay=true&autoplaySpeed=5000&rating=true&company=true&watermark=true&responsive=true" width="100%" height="500" style={{border: '0', borderRadius: '8px'}} loading="lazy"></iframe>
+          </div>
+        </section>
+
         {/* Contact */}
         <div className='mt-20' id='contact'>
           <h1 className='scroll-m-20 text-start text-4xl font-extrabold tracking-tight text-balance'>Contact</h1>
